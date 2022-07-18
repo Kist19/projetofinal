@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: DimGray;
+}
+
+header {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(133, 133, 133);
+}
+
+header img {
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+}
+
+.logo {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+nav {
+  margin-right: 50px;
+
+
+}
+
+nav a {
+  padding: 0px 10px;
+  text-decoration: none;
+  color: darkblue;
+  font-family: cursive;
+  font-size: 20px;
+  border: 1px solid black;
+  background-color: aqua;
+}
+
+nav a:hover {
+  padding: 0px 10px;
+  text-decoration: none;
+  color: yellow;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  border: 1px solid black;
+  background-color: red;
+
+}
+
+main {
+  background-color: white;
+  width: 100vw;
+  height: 70vh;
+}
+
+.principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.principal img {
+  margin-top: 40px;
+}
+
+.principal h3 {
+  text-align: center;
+  color: rgb(247, 78, 16);
+  font-weight: bold;
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+}
+
+
+.sobre {
+  padding: 50px;
+  display: flex;
+  background-color: red;
+  width: 100vw;
+  
+}
+
+.sobre h1 {
+  text-align: center;
+  color: white;
+}
+
+.sobre p {
+  width: 80%;
+  margin: 0px auto;
+  font-family: 'Ibarra Real Nova', serif;
+  font-size: 25px;
+  color: white;
+  text-align: justify;
+  text-indent: 20px;
+}
+
+.contato {
+  padding: 20px;
+  background-color: rgb(196, 39, 39);
+  width: 100vw;
+  height: 75vh;
+
+}
+.contato h2{
+  color: white;
+  text-align: center;
+
+}
+
+.contato form {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 150px;
+  padding-bottom: 10px;
+}
+
+footer {
+  background-color: rgb(133, 133, 133);
+  width: 100vw;
+}
+
